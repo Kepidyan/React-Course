@@ -6,16 +6,12 @@ class Card extends React.Component {
     }
 
     increment = () => {
-        //    this.count++;
-        //    console.log(this.count); 
         this.setState({
             count : this.state.count + 1
         })
     }
 
     decrement = () => {
-        // this.count--;
-        // console.log(this.count);
         this.setState({
             count : this.state.count - 1
         })

@@ -1,15 +1,9 @@
-import Card from './components/card'; 
-import Button from './components/button';
+import Auth from "./pages/Auth";
 
 function App () {
     return (
         <div> 
-
-            <Card title='MacBook Pro'/>
-
-            <hr />
-
-            <Button value='Add Card'/>
+            <Auth/>
         </div>
     )
 }

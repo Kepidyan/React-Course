@@ -28,7 +28,7 @@ class Card extends React.Component {
                     <span>
                         count = {this.state.count}
                     </span>
-                <button onClick={this.increment} disabled={this.state.count === 5}>+</button>
+                <button onClick={this.increment} disabled={this.state.count === 10}>+</button>
             </div>
         )
     }
